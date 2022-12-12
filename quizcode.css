@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+    color: white;
+}
+main{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+main > section{
+    width: 50%;
+    height: auto;
+    padding: 15px;
+    background-color: azure;
+    color: black;
+    font-size: 2.5rem;
+}
+main > section> h1{
+    margin: 10px;
+}
+ul li{
+    margin: 5px;
+    font-weight: lighter;
+    color: rgb(54, 50, 50);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+main > section button{
+   cursor: pointer;
+    
+    width: 9rem;
+    height: auto;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px 10px;
+    display: block;
+    margin: auto;
+    border: none;
+
+}
+.btn{
+    cursor: pointer;
+    
+    width: 9rem;
+    height: auto;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px 10px;
+    display: block;
+    margin: auto;
+    border: none;
+
+}
+input{
+    cursor: pointer;
+}
+#score{
+    background-color: bisque;
+    box-shadow: 0 1rem 1rem .5rem black;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    margin-top: 1.5rem;
+}
+.showscore{
+
+    display: none;
+}
